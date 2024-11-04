@@ -13,6 +13,16 @@ export default async function Home({searchParams}: {searchParams: Promise<{query
       category: "Robots",
       title: "We Robots",
     },
+    {
+      _createdAt: "Yesterday",
+      views: 55,
+      author: { _id: 2 },
+      _id: 2,
+      description: "This is a description",
+      image: "https://via.placeholder.com/800",
+      category: "Robots",
+      title: "We Robots",
+    },
   ];
 
   return (
@@ -41,6 +51,8 @@ export default async function Home({searchParams}: {searchParams: Promise<{query
               <p className="no-results">No startups found</p>
             )}
           </ul>
+
+
 
 
       </section>

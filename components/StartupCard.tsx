@@ -8,9 +8,6 @@ const StartupCard = ({post} : {post:StartupTypeCard} ) => {
         <p className='start_card_date'>
          {(post._createdAt)}
         </p>
-
-
-
       </div>
     </li>
   )
